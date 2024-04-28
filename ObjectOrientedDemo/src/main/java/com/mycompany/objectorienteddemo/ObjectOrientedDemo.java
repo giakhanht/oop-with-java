@@ -19,5 +19,14 @@ public class ObjectOrientedDemo {
         staff2.setHoursWorked(300);
         pay = staff2.calculatePay();
         System.out.println("Pay = " + pay);
+        
+        //Error test case
+        System.out.println("\nUpdating James' hours of work to -10");
+        staff2.setHoursWorked(-10);
+        
+        System.out.println("Hours Jame worked: " + staff2.getHoursWorked());
+        
+        System.out.println("Pay = " + staff2.calculatePay());
+        
     }
 }
