@@ -38,7 +38,7 @@ public class InheritanceDemo {
         clubMembers[2] = new NormalMember("Bill", 3, 2011);
         clubMembers[3] = new VIPMember("Carol", 4, 2012);
         clubMembers[4] = new VIPMember("Everlyn", 5, 2013);
-        clubMembers[5] = new Member("Yvonne", 6, 2014);
+        clubMembers[5] = new VIPMember("Yvonne", 6, 2014);
         
         //Utilize for statement to calculate pay for each member.
         for (Member m : clubMembers) {

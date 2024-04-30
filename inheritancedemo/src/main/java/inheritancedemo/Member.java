@@ -8,7 +8,9 @@ import java.util.Scanner;
  *
  * @author Administrator
  */
-public class Member {
+
+//Abstract methods only exists within agstract classes
+abstract public class Member {
     //Some fields
     public String welcome = "Welcome to ABC fitness!";
     protected double annualFee;
@@ -55,7 +57,6 @@ public class Member {
         System.out.println("Member Since: " + memberSince);
         System.out.println("Annual Fee: " + annualFee);
     }
-    public void calculateAnnualFee() {
-        annualFee = 0;
-    }
+    
+    abstract public void calculateAnnualFee();
 }
